@@ -730,9 +730,9 @@ The function signature is the same as `dns.lookup`.
 
 ### `dnsCache`
 
-**Type: <code>[CacheableLookup](https://github.com/szmarczak/cacheable-lookup) | false</code>**
+**Type: <code>[CacheableLookup](https://github.com/szmarczak/cacheable-lookup) | `boolean` </code>**
 
-An instance of `CacheableLookup` used for making DNS lookups.\
+An instance of `CacheableLookup` used for making DNS lookups, or a boolean value to enable/disable DNS caching with a cache shared across requests.\
 Useful when making lots of requests to different public hostnames.
 
 **Note:**
